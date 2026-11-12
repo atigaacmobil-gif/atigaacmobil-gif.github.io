@@ -391,3 +391,8 @@ nav a,
     height: 245px !important;
   }
 }
+
+/* Ukuran tombol WhatsApp mengambang diperbesar */
+.floating-wa { width: 68px !important; height: 68px !important; }
+.floating-wa svg { width: 40px !important; height: 40px !important; }
+@media (max-width: 600px) { .floating-wa { width: 62px !important; height: 62px !important; } .floating-wa svg { width: 36px !important; height: 36px !important; } }
